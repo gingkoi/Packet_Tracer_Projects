@@ -1,0 +1,27 @@
+
+Network address = 192.168.40.0
+
+No. of subnets = 2
+
+# Find the number of departments / subnets
+# Find value of N 
+2^n (no. of subnets) = 2
+
+# Number of borrowed bits
+N = 1
+
+11111111 11111111 11111111 10000000
+
+255.255.255.128 => Subnet mask
+
+1st Subnet
+Subnet mask = 255.255.255.128
+Network ID = 192.168.40.0
+Range of valid host = 192.168.40.1 - 192.168.40.126
+Broadcast ID = 192.168.40.127
+
+2nd Subnet
+Subnet mask = 255.255.255.128
+Network ID = 192.168.40.128
+Range of valid host = 192.168.40.129 - 192.168.40.254 
+Broadcast ID = 192.168.40.255
